@@ -2,3 +2,16 @@ body{
    background:violet ; 
    color:blueviolet
 }
+header { 
+   border-bottom:solid 2px rgba(112, 71, 109, 0.898);
+   padding: 20px;
+   font-size: 32px;
+   color: rgb(195, 65, 207);
+}
+section{ 
+  background-color: rgb(37, 3, 34); 
+  padding-bottom: 80px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+}
