@@ -3,15 +3,30 @@ body{
    color:blueviolet
 }
 header { 
-   border-bottom:solid 2px rgba(112, 71, 109, 0.898);
+   border-bottom:solid 2px rgba(24,122,228);
    padding: 20px;
    font-size: 32px;
-   color: rgb(195, 65, 207);
+   color: rgb(24,122,228);
 }
 section{ 
-  background-color: rgb(37, 3, 34); 
+  background-color: rgb(184,156,213); 
   padding-bottom: 80px;
   padding-top: 80px;
   display: flex;
   justify-content: center;
 }
+.chamado-texto{
+   margin-right: 5%;
+   img {
+  height: 200px;
+}
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    }
